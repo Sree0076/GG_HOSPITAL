@@ -60,3 +60,40 @@
 #footer-social img{
     width: 20px;
 }
+
+@media (max-width: 768px) {
+    
+    .navbar {
+      padding: 0;
+    }
+    .navbar-brand {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+   
+    .navbar-collapse {
+      justify-content: flex-start;
+    }
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+ 
+  @media (max-width: 576px) {
+    .col-md-3 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
